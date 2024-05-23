@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+
+:root{
+    --red:#f53b57
+}
+
+*::selection{
+    background: var(--red);
+    color: #fff;
+}
+
+html{
+    font-size: 40px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header{
+    padding: 10px;
+    padding-bottom: 50px;
+    position: fixed;
+    background: url(images/header-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h2{
+    text-align: center;
+    color: var(--red);
+    justify-content: center;
+    font-size: 36px;
+}
+
+.box-container{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.box-container .box{
+    margin: 15px;
+    padding: 14px;
+    height: 300px;
+    flex: 1 1 40px;
+}
