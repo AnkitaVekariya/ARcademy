@@ -36,14 +36,6 @@
 
 Feel free to fork this project, submit issues, and send pull requests. Any contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Thanks to [YourName](https://github.com/YourGitHubUsername) for developing this project.
-
 ## Explore the Code
 
 Check out the full project on GitHub: [ARcademy](https://github.com/AnkitaVekariya/ARcademy
